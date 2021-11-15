@@ -1,8 +1,6 @@
 #include <stdio.h>
 #include <stdlib.h>
 
-#define SENTINEL(p) (&(p)->sentinel)
-
 typedef struct node {
 	int data; // data is integers 
 	struct node *next; // link to the next element in list
